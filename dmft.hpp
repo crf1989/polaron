@@ -38,5 +38,10 @@ void dmft (green_function& G, density_of_states& rho,
     } while (diff > 1e-2);
 }
 
-
+double kubo_greenwood (green_function& G, double t)
+{
+  double result = 0;
+  double h = G.omega(1)-G.omega(0);	
+}
+  
 #endif //DMFT_HPP

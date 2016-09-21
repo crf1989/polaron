@@ -19,7 +19,7 @@ int main (int argc, char* argv[])
   FILE* fp = fopen ("dat", "w");
   for (int i = 0; i < G.size(); ++i)
     {
-        int L = 20;
+        int L = 100;
 	double h = 2*M_PI/L;
 	double result = 0;
 
